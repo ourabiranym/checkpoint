@@ -1,0 +1,46 @@
+body {
+  background: peachpuff;
+}
+
+#navbar {
+  border: 1px solid red;
+  background-color: chocolate;
+}
+#navbar > li {
+  border: 1px solid green;
+  display: inline-block;
+  padding-right: 90px;
+  #grad {
+    background-image: linear-gradient(to bottom right, red, yellow);
+  }
+}
+#first {
+  margin-right: 70px;
+  height: 15px;
+}
+#navbar > li:hover {
+  background-color: darksalmon;
+}
+#navbar > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.center {
+  margin: 50px 40px 20pxs;
+}
+h1 {
+  color: green;
+}
+h3 {
+  color: blueviolet;
+}
+h2 {
+  color: palevioletred;
+}
